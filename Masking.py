@@ -3,7 +3,7 @@ lamgarraj
 
 '''
 
-
+#masking enhancement
 def apply_mask(matrix, mask, fill_value):
     masked = np.ma.array(matrix, mask=mask, fill_value=fill_value)
     return masked.filled()
